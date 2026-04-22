@@ -1,0 +1,110 @@
+{
+  "language": {
+    "en": {
+      "logo": {
+        "title": "ReelPlayer",
+        "subtitle": "AI Video Editing Tool\naireelmagic@outlook.com"
+      },
+      "download": "Download Now",
+      "sections": [
+        {
+          "id": "video-comparison",
+          "title": "Super Resolution",
+          "icon": "fas fa-search-plus",
+          "content": [
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./vsr_01.mp4",
+                "title": "Before"
+              },
+              "after": {
+                "src": "./vsr_02.mp4",
+                "title": "After"
+              }
+            },
+            {
+              "type": "text",
+              "value": "ReelPlayer deeply integrates with the NVIDIA VSR engine, using AI to reshape image quality in real-time. It achieves super-resolution performance beyond native quality with minimal computational overhead."
+            },
+            {
+              "type": "landscape-video",
+              "src": "./vsr_landscape.mp4",
+              "title": "Landscape Demo"
+            },
+            {
+              "type": "text",
+              "value": "How to enable: Open NVIDIA Control Panel > Video > Adjust video image settings, check 'RTX Video Enhancement' and set quality levels 1-4 according to your needs."
+            }
+          ]
+        },
+        {
+          "id": "fantasy_mask",
+          "title": "Fantasy Mask",
+          "icon": "fas fa-mask",
+          "content": [
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./face_01.mp4",
+                "title": "Before"
+              },
+              "after": {
+                "src": "./face_02.mp4",
+                "title": "After"
+              }
+            },
+            {
+              "type": "text",
+              "value": "ReelPlayer supports static image masking and portrait enhancement to help you achieve creative image fusion."
+            },
+            {
+              "type": "landscape-video",
+              "src": "./musk_landscape.mp4",
+              "title": "Landscape Demo"
+            },
+            {
+              "type": "text",
+              "value": "Supports full-spec video compositing with no limit on resolution. Simply right-click to enable 'Portrait Synthesis'. The program will automatically deploy the AI model, providing millisecond-level real-time compositing after loading."
+            }
+          ]
+        },
+        {
+          "id": "cartoon_filter",
+          "title": "Cartoon Stylization",
+          "icon": "fas fa-wand-magic-sparkles",
+          "content": [
+            {
+              "type": "function-title",
+              "value": "Anime Visual Engine"
+            },
+            {
+              "type": "video-comparison",
+              "before": {
+                "src": "./cartoon_01.mp4",
+                "title": "Before"
+              },
+              "after": {
+                "src": "./cartoon_02.mp4",
+                "title": "After"
+              }
+            },
+            {
+              "type": "text",
+              "value": "Break the dimensional barrier with one click. Our AI algorithms transform realistic footage into high-quality anime visuals in real-time, maintaining high frame rates for smooth playback."
+            },
+            {
+              "type": "landscape-video",
+              "src": "./cartoon_landscape.mp4",
+              "title": "Landscape Demo"
+            },
+            {
+              "type": "text",
+              "value": "Cartoon Stylization is a real-time AI synthesis feature. Right-click on 'Cartoon Stylization' to activate. Note: Automatic model loading is required on first use."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
